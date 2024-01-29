@@ -23,27 +23,59 @@ class CardWidget extends StatelessWidget {
                 width: double.maxFinite,
               ),
               Align(
-                alignment: Alignment.bottomCenter,
+                alignment: Alignment.bottomLeft,
                 child: Container(
                   color: ColorsBase.blackBase.withOpacity(0.10),
                   height: 100,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
-                    child: Row(
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        // Judul di atas (bold)
                         Text(
-                          "anjay mabar",
+                          "SongKang",
                           style: TextStyle(
                             color: ColorsBase.whiteBase,
+                            fontSize: 15,
                             fontFamily: "Poppins",
-                            fontWeight: FontWeight.w600,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Text(
+                          "Mau Ngapelin ayla pls",
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: ColorsBase.whiteBase,
+                            fontFamily: "Poppins",
+                          ),
+                        ),
+
+                        Text(
+                          "14-02-24",
+                          style: TextStyle(
+                            color: ColorsBase.whiteBase,
+                            fontSize: 10,
+                            fontFamily: "Poppins",
                           ),
                         ),
                       ],
                     ),
                   ),
                 ),
-              )
+              ),
+              Align(
+                alignment: Alignment(0.80, 0.8),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: CircleAvatar(
+                    backgroundImage: NetworkImage(
+                      "https://i.pinimg.com/564x/b4/2b/04/b42b04fab06f1b4e1fb20553bc7f93bb.jpg",
+                    ),
+                    radius: 20.0,
+                  ),
+                ),
+              ),
             ],
           ),
         ),
