@@ -50,6 +50,14 @@ class HomePage extends StatelessWidget {
                 height: 5,
               ),
               CardWidget(),
+              SizedBox(
+                height: 15,
+              ),
+              CardWidget(),
+              SizedBox(
+                height: 15,
+              ),
+              CardWidget(),
             ],
           ),
         ),
