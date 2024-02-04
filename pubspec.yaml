@@ -37,6 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9
   get: ^4.6.6
+  carousel_slider: ^4.2.1
+  google_nav_bar: ^5.0.6
+  camera: ^0.10.5+9
+  path: ^1.8.3
+  share_plus: ^7.2.2
+  path_provider: ^2.1.2
 
 dev_dependencies:
   flutter_test:

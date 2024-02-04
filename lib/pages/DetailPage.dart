@@ -21,7 +21,7 @@ class DetailPage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Isi dari halaman detail',
+          'gue jg gak tau jgn tanya',
           style: TextStyle(fontSize: 20),
         ),
       ),
